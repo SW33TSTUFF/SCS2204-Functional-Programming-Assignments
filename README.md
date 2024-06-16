@@ -1,2 +1,6 @@
 # SCS2204-Functional-Programming-Assignments
-SCS2204 Labsheet/Assingments
+Labsheets/assignments for SCS 2204
+
+NAME : M.N.M SIMAAK
+Index No. : 22001913
+Reg. No. : 2022/CS/191
