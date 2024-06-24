@@ -4,7 +4,7 @@ object question4 extends App {
 
   def attendance(ticketPrice: Int):Int = {
     var gradient = (120 - 100) / (15 - 20) // -1/4
-    var intercept = 120 + 15*4 // y = m(intercept) + c
+    var intercept = 120 + 15*4 // y = m(gradient) + c
     gradient * ticketPrice + intercept
   }
 
