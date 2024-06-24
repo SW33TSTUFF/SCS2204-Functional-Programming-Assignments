@@ -21,7 +21,7 @@ object question4 extends App {
   println("Profit at Rs. 25 : " + trueProfit(25, 80))
   println("Profit at Rs. 30 : " + trueProfit(30, 60))
   println("Profit at Rs. 35 : " + trueProfit(35, 40))
-  println("Profit at Rs. 40 : " + trueProfit(5, 20)) // cannot have attendance any less than 20
+  println("Profit at Rs. 40 : " + trueProfit(40, 20)) // cannot have attendance any less than 20
 
   println("The best ticket price is Rs. 25 with a total profit of Rs. " + trueProfit(25,80))
 }
