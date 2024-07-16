@@ -15,7 +15,8 @@ object question3 extends App {
 
     print("Enter a number: ")
     val n = StdIn.readInt()
-    println("First n Fibonacci number ")
+    if (n < 0) println("Incorrect")
+    else println("First n Fibonacci number ")
     printFibonacci(n)
 
 }

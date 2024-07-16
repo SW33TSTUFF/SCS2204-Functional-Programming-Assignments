@@ -17,7 +17,7 @@ object question1 extends App {
 
     def printProductList(list:List[String]):Unit = {
         list.zipWithIndex.foreach { case (product, index) =>
-            println({index + 1} + $product)
+            println("{index + 1} + $product")
         }
     }
 
