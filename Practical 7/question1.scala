@@ -1,6 +1,6 @@
 object Question1 extends App {
 
-    val inputList1 = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val inputList1 = List(1, 2, 3, 4, 5, 6, 7, 8, 9,10)
     val inputList2 = List(1,2,3,4,5)
 
 
