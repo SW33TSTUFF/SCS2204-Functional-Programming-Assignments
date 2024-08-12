@@ -1,6 +1,6 @@
 import scala.io.StdIn.readLine
 
-object NumberCategorizer extends App {
+object question2 extends App {
     val categorize = (inputValue:Int) => {
         inputValue match {
             case num if num % 3 == 0 && num % 5 == 0 => "Multiple of Both Three and Five"
