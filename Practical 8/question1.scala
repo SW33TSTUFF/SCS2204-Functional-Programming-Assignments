@@ -4,7 +4,7 @@ object question1 extends App {
     val shift = 2
     val inputString = "Welcome to UCSC"
 
-    def encrypt(stringInput: String, shiftValue: Int): String = {
+    def Encryption(stringInput: String, shiftValue: Int): String = {
         stringInput.map { text =>
             if (text.isLetter) {
                 if (text.isLower) {
@@ -18,7 +18,7 @@ object question1 extends App {
         }
     }
 
-    def decrypt(stringInput: String, shiftValue: Int): String = {
+    def Decryption(stringInput: String, shiftValue: Int): String = {
         stringInput.map { text =>
             if (text.isLetter) {
                 if (text.isLower) {
@@ -32,14 +32,14 @@ object question1 extends App {
         }
     }
 
-    def ceaserCipher(inputString: String, shiftValue: Int, algorithm: (String, Int) => String): String = {
+    def Cipher(inputString: String, shiftValue: Int, algorithm: (String, Int) => String): String = {
         algorithm(inputString, shiftValue)
     }
 
     println("Input string is: " + inputString)
-    val encryptedText = ceaserCipher(inputString, shift, encrypt)
+    val encryptedText = Cipher(inputString, shift, Encryption)
     println("Encrypted text is: " + encryptedText)
 
-    val decryptedText = ceaserCipher(encryptedText, shift, decrypt)
+    val decryptedText = Cipher(encryptedText, shift, Decryption)
     println("Decrypted text is: " + decryptedText)
 }

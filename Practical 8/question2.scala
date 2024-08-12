@@ -10,7 +10,6 @@ object NumberCategorizer extends App {
         }
     }
 
-
     val input = readLine("Please enter an integer: ").toInt
     println(categorize(input))
 }
