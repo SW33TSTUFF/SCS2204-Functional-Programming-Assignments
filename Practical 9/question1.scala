@@ -12,7 +12,9 @@ object question1 extends App {
         }
     }
 
-    println("The deposited amount: " + depositValue)
-    println("The interest amount for the deposited value: " + interestAmount(depositValue))
-    println("Total amount that can be expected per year: " + (depositValue + interestAmount(depositValue)))
+    println("The deposited amount: Rs. " + depositValue)
+    println("The interest amount for the deposited value: Rs. " + interestAmount(depositValue))
+    println("Total amount that can be expected per year: Rs. " + (depositValue + interestAmount(depositValue)))
 }
+
+
